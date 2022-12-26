@@ -1,0 +1,88 @@
+
+
+.array-container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+  
+.array-bar {
+    width: 3px;
+    display: inline-block;
+    max-height: 100vh;
+    margin: 0 1px;
+}
+
+.btns_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 10px;
+}
+
+.select_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.54rem;
+    gap: 20px;
+}
+
+.btns_container > button, select {
+    cursor: pointer;
+    appearance: none;
+    color: white;
+    width: 200px;
+    background: var(--primary-500);
+    border: none;
+    
+    border-radius: 7px;
+    font-family: 'Karla', sans-serif;
+    padding: 0.375rem 0.75rem;
+    box-shadow: var(--shadow-2);
+    transition: var(--transition);
+}
+
+.btns_container > button:hover {
+    color: gold;
+    background: var(--primary-700);
+    box-shadow: var(--shadow-2);
+}
+button.small {
+    padding: 0.25rem 0.5rem;
+    font-size: var(--smallText);
+}
+button.hipster {
+    color: var(--primary-500);
+    background: var(--primary-50);
+    box-shadow: var(--shadow-1);
+}
+button.hipster:hover {
+    background: var(--primary-100);
+    box-shadow: var(--shadow-2);
+}
+button.block {
+    width: 100%;
+}
+
+:root {
+    /* Main */
+    --primary-500: #645cff;
+    --primary-600: #554ed9;
+    --primary-700: #4640b3;
+    --primary-800: #37338c;
+    --primary-900: #282566;
+    --primary-1000: #191740;
+    --primary-1100: #0a0919;
+    /* Transition */
+    --transition: 0.3s ease-in-out all;
+     /* box shadows */
+    --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
