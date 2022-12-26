@@ -1,6 +1,5 @@
-# sortingVisualizer
 
-# sorting algorithms using react.js 
+# sortingVisualizer algorithms using react.js 
 
 project isn't complete yet, only bubleSort is working right now!
 
