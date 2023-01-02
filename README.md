@@ -1,9 +1,9 @@
 
 # sortingVisualizer algorithms using react.js
 
-project isn't complete yet, only bubleSort is working right now!
-
-to run project:
+The project isn't complete yet, only bubble sort is working right now!
+If you are interested to see it in browsers, it's hosted on Azure app services 
+to run the project:
 
   `npm run start`
 
