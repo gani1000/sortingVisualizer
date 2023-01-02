@@ -2,7 +2,7 @@
 # sortingVisualizer algorithms using react.js
 
 The project isn't complete yet, only bubble sort is working right now!
-If you are interested to see it in browsers, it's hosted on Azure app services 
+If you are interested to see it in browsers, it's hosted on Azure app service
 to run the project:
 
   `npm run start`
