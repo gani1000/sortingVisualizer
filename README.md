@@ -3,7 +3,7 @@
 
 The project isn't complete yet, only bubble sort is working right now!
 If you are interested to see it in browsers, it's hosted on Azure app service
-to run the project:
+to run the project:https://sortingvisualizerg.azurewebsites.net
 
   `npm run start`
 
